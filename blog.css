@@ -23,43 +23,40 @@ header p{
     color:#d6c2a5;
     margin-top:10px;}
 
-.topnav {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  background-color: rgba(45, 35, 10, 1);
-  padding: 10px 0;
-  position: sticky;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-  backdrop-filter: blur(0);
-  transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
-}
-
 nav{
-    background:#0a0606;
+    display:flex;
+    justify-content:center;
+    gap:70px;
     padding:16px;
+    background:linear-gradient(to right,#120808,#1a0f0f,#120808);
     text-align:center;
-    border-bottom:1px solid rgba(245,230,211,0.08);}
+    border-bottom:1px solid rgba(245,230,211,0.15);}
 
 nav a:link{
-    color:#e8d8c3;
     text-decoration:none;
-    margin:0 25px;
-    font-weight:600;
+    color:#e6d3b3; 
+    font-size:20px;
     letter-spacing:2px;
-    transition:0.35s;}
+    font-weight:600;
+    padding:12px 30px;
+    border-radius:2px;
+    transition:0.4s;}
 
 nav a:visited{
     color:#cbb79a;}
 
 nav a:hover{
+     background:linear-gradient(to bottom,#3b2a1a,#24160d);
     color:#ffffff;
-    text-shadow:0 0 12px rgba(255,240,220,0.6);}
+    box-shadow:
+        0 0 18px rgba(255,220,160,0.18);}
 
 nav a:active{
-    color:#bfa07a;}
+    background:linear-gradient(to bottom,#3b2a1a,#24160d);
+    color:#fff4dc;
+    box-shadow:
+        0 0 12px rgba(255,220,160,0.25),
+        inset 0 0 6px rgba(255,240,200,0.2);}
 
 .row{
     width:88%;
@@ -143,4 +140,5 @@ footer{
     .leftcolumn, .rightcolumn{
         width:100%;
         padding:0;}
+
 
