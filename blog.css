@@ -23,6 +23,20 @@ header p{
     color:#d6c2a5;
     margin-top:10px;}
 
+.topnav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: rgba(45, 35, 10, 1);
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  backdrop-filter: blur(0);
+  transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+}
+
 nav{
     background:#0a0606;
     padding:16px;
@@ -129,3 +143,4 @@ footer{
     .leftcolumn, .rightcolumn{
         width:100%;
         padding:0;}
+
