@@ -71,6 +71,12 @@ nav a:active{
     width:28%;
     padding-left:25px;}
 
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:72%;}
+
 .card{
     background: linear-gradient(145deg,#140909,#1f1111);
     padding:30px;
@@ -146,6 +152,7 @@ footer{
     .leftcolumn, .rightcolumn{
         width:100%;
         padding:0;}
+
 
 
 
