@@ -110,6 +110,8 @@ iframe{
 .about-img{
     width: 280px;
     height: 280px;
+    float: right; 
+    margin-left: 10px;
     border-radius: 50%;
     object-fit: cover;
     padding:10px;
@@ -143,6 +145,7 @@ footer{
     .leftcolumn, .rightcolumn{
         width:100%;
         padding:0;}
+
 
 
 
