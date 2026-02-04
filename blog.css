@@ -97,7 +97,8 @@ iframe{
     justify-content:center;}
 
 .gallery img{
-    width:260px;
+    width:280px;
+    height:280px
     border-radius:4px;
     transition:0.4s;
     filter:brightness(0.75) sepia(25%);}
@@ -145,6 +146,7 @@ footer{
     .leftcolumn, .rightcolumn{
         width:100%;
         padding:0;}
+
 
 
 
