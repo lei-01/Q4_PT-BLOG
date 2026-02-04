@@ -97,7 +97,7 @@ iframe{
     justify-content:center;}
 
 .gallery img{
-    width:280px;
+    width:300px;
     height:280px
     border-radius:4px;
     transition:0.4s;
@@ -146,6 +146,7 @@ footer{
     .leftcolumn, .rightcolumn{
         width:100%;
         padding:0;}
+
 
 
 
