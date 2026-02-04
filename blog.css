@@ -108,10 +108,11 @@ iframe{
     box-shadow:0 0 25px rgba(255,220,180,0.25);}
 
 .about-img{
-    width:350px;
-    height:350px;
-    float:right;
-    border-radius:50%;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding:10px;
     display:block;
     margin:auto;
     border:2px solid rgba(245,230,211,0.3);}
@@ -142,6 +143,7 @@ footer{
     .leftcolumn, .rightcolumn{
         width:100%;
         padding:0;}
+
 
 
 
